@@ -1,0 +1,144 @@
+.head {
+    background-color: #2C2F33;
+    height: 52px;
+    overflow: hidden;
+}
+.head-main {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    font-family: PingFangSC-Regular;
+}
+.head-menu {
+    width: 703px;
+    float: right;
+}
+.login {
+    width: 250px;
+    float: right;
+    line-height: 52px;
+    color: #fff;
+    text-align: right;
+}
+.head .logo {
+    text-indent: -9999em;
+    display: block;
+    width: 165px;
+    height: 20px;
+    margin-top: 16px;
+    float: left;
+}
+.head .login a {
+    color: #fff;
+}
+a {
+    text-decoration: none;
+}
+.head .login {
+    width: 250px;
+    float: right;
+    line-height: 52px;
+    color: #fff;
+    text-align: right;
+}
+body, button, input, select, textarea {
+    font: 12px/1.5 '\5FAE\8F6F\96C5\9ED1','\5b8b\4f53',tahoma,arial;
+}
+ul, ol {
+    list-style: none;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.head .head-menu li {
+    list-style: none;
+    display: inline;
+    position: relative;
+    z-index: 2;
+}
+.head .head-menu li a {
+    font-size: 14px;
+    color: #fff;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    line-height: 52px;
+    padding: 10px 15px;
+    margin-left: 4px;
+}
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td, form {
+    margin: 0;
+    padding: 0;
+}
+.index-mid-box {
+    width: 1000px;
+    height: 780px;
+    position: absolute;
+    margin-left: -500px;
+    top: 0;
+    left: 50%;
+}
+.index-mid-box .float-mid {
+    position: absolute;
+    left: 50%;
+    top: 42%;
+    margin-left: -270px;
+    margin-top: -112px;
+}
+.search-box .search-text {
+    padding: 10px 0 6px;
+    text-indent: 10px;
+    width: 460px;
+    float: left;
+    border: 0;
+    font-size: 14px;
+    position: relative;
+    top: 4px;
+    outline: none;
+}
+.search-topic {
+    color: rgba(31,56,88,0.30);
+    line-height: 20px;
+    margin-left: 8px;
+}
+.search-topic {
+    position: absolute;
+    color: #A1A1A1;
+    z-index: 90;
+    font-size: 14px;
+    top: 50%;
+    margin-top: -10px;
+    line-height: 22px;
+    display: block;
+    width: 300px;
+}
+.index-main {
+    width: 100%;
+    height: 900px;
+    overflow: hidden;
+    font-family: PingFangSC-Regular;
+}
+.index-footer {
+    width: 100%;
+    height: 44px;
+    background: #2C2F33;
+}
+.index-footer .footer-content {
+    font-family: PingFangSC-Regular;
+    width: 1000px;
+    margin: 0 auto;
+    line-height: 44px;
+    text-align: right;
+    color: #fff;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+}
